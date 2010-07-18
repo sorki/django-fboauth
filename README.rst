@@ -44,6 +44,7 @@ Usage
 ------
 
 Authentication process is started automaticly when you visit::
+
     {% url fboauth_start %}
 
 
