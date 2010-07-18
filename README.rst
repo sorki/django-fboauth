@@ -20,14 +20,14 @@ Then set these api keys with:
  * FACEBOOK_API_KEY
 
 Add ``'fboauth.backends.FacebookBackend'`` to AUTHENTICATION_BACKENDS. This should be in addition to the 
-default ModelBackend:::
+default ModelBackend::
 
     AUTHENTICATION_BACKENDS = (
       'fboauth.backends.FacebookBackend',
       'django.contrib.auth.backends.ModelBackend',
     )
 
-Add fboauth URLs to your application's urlconf. Example:::
+Add fboauth URLs to your application's urlconf. Example::
 
     urlpatterns = patterns('',
         ...
