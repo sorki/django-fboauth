@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{# TODO (major): more generic #}
+{# TODO (normal): i18n #}
+
+{% block title %}
+  Facebook authentication failed
+{% endblock %}
+
+{% block heading %}
+  Facebook authentication failed
+{% endblock %}
+
+{% block content %}
+  Facebook authentication process failed.
+
+  Reason: {{ message }}
+
+{% endblock %}
